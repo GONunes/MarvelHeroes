@@ -5,7 +5,7 @@ Essa SPA (Single Page Application) lista herois da Marvel consumindo da API deve
 
 ## Entendendo a Consulta
 <p>
-Para o uso da API é necessário criar um usuário,e é possível realizar até 3 mil chamadas.
+Para o uso da API é necessário criar um usuário, e é possível realizar até 3 mil chamadas.
 
 Na documentação do site é repassado o link para consumir a API, são necessárias algumas informações de usuário para as consultas.
 
