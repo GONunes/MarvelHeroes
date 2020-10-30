@@ -1,0 +1,54 @@
+#hero{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#hero img{
+    width: 100px;
+    height: 100px;
+}
+
+#hero text{
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.character{
+    background-color: rgb(39, 39, 39);
+    width: 350px;
+    height: 100px;
+    margin: 20px;
+    border-radius: 2px 20px 2px 2px;
+    box-shadow: 3px 4px #ccc;
+}
+
+.character:hover{
+    background-color: rgb(224, 0, 0);
+    transition: all 0.4s;
+}
+
+.banner{
+    background-image: url(/images/MarvelBanner.jpg);
+    height: 250px;
+    padding: 100px;
+}
+
+.main-title{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 30px; 
+    color: white; 
+    text-align: center;
+}
+
+.banner-footer{
+    background-color:rgb(39, 39, 39);
+    height: 60px; 
+    margin: 0px 0px 30px 0px;
+}
+
+.justify-cards{
+    padding: 15px;
+}
+
