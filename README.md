@@ -5,7 +5,7 @@ Essa SPA (Single Page Application) lista herois da Marvel consumindo da API deve
 
 ## Entendendo a Consulta
 <p>
-Para o uso da API é necessário criar um usuário, é possível realizar até 3 mil chamadas.
+Para o uso da API é necessário criar um usuário,e é possível realizar até 3 mil chamadas.
 
 Na documentação do site é repassado o link para consumir a API, são necessárias algumas informações de usuário para as consultas.
 
@@ -25,7 +25,7 @@ HASH - É o MD5 da concatenação da TimeStamp, com a Public Key, mais a Private
 <p>
  Na própria API é possível limitar a quantidade do uso de hérois que serão listados.
  
- Basta adicionar o parametro "limit" no link como é mostrado abaixo:
+ Basta adicionar o parametro "limit" no link, como é mostrado abaixo:
  
  http://gateway.marvel.com/v1/public/characters?ts=TIMESTAMP&apikey=PUBLICKEY&hash=HASH&limit=20
  
