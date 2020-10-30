@@ -13,11 +13,11 @@ Link para consumo da API: http://gateway.marvel.com/v1/public/characters?ts=TIME
 
 Como é possível observar é necessário essas 3 informações para o consumo da API: <br>
 
-TimeStamp - É possível pegar esse dado através do comando Math.floow(Date.now() / 1000) no console do navegador.
+TIMESTAMP - É possível pegar esse dado através do comando Math.floow(Date.now() / 1000) no console do navegador.
 
-Public Key - É possível pegar esse dado no próprio site após logar com seu usário e visualizar os detalhes da sua conta.
+PUBLIC KEY - É possível pegar esse dado no próprio site após logar com seu usário e visualizar os detalhes da sua conta.
 
-Hash - É o MD5 da concatenação da TimeStamp, com a Public Key, mais a Private Key(disponivel nos detalhes da conta).
+HASH - É o MD5 da concatenação da TimeStamp, com a Public Key, mais a Private Key(disponivel nos detalhes da conta).
 </p>
 
 ## Limitando a Quantidade de Heróis Listados
