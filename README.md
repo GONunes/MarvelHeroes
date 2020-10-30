@@ -11,6 +11,7 @@ Na documentação do site é repassado o link para consumir a API, são necessá
 
 Link para consumo da API: http://gateway.marvel.com/v1/public/characters?ts=TIMESTAMP&apikey=PUBLICKEY&hash=HASH
 
+
 Como é possível observar é necessário essas 3 informações para o consumo da API:
 
 TimeStamp - É possível pegar esse dado através do comando Math.floow(Date.now() / 1000) no console do navegador.
